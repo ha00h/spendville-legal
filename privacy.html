@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인정보처리방침 — Spendville</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./">Spendville</a>
+      <nav>
+        <a href="./">홈</a>
+        <a href="./privacy.html" aria-current="page">개인정보처리방침</a>
+        <a href="./account-deletion.html">계정 삭제</a>
+      </nav>
+    </header>
+    <main>
+      <h1>개인정보처리방침</h1>
+      <p class="meta">시행일: 2026-11-20 (초안) · 법률 자문이 아닙니다.</p>
+
+      <p class="note">
+        출시 전 담당자·변호사가 검토·확정한 뒤, 아래 문의란의 성명·이메일을 채우고
+        이 URL을 스토어와 앱에 연결하세요.
+      </p>
+
+      <p>
+        Spendville(이하 “서비스”)는 가계부·마을 꾸미기 앱입니다. 본 방침은 서비스가
+        어떤 개인정보를 다루는지 안내합니다.
+      </p>
+
+      <h2>1. 수집하는 정보</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>항목</th>
+            <th>목적</th>
+            <th>수집 방법</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google(및 추후 Apple) 로그인 식별자, 표시 이름</td>
+            <td>계정 생성·인증, 마을 멤버 표시</td>
+            <td>소셜 로그인</td>
+          </tr>
+          <tr>
+            <td>프로필 사진(선택)</td>
+            <td>마을 멤버 아바타</td>
+            <td>사용자가 선택</td>
+          </tr>
+          <tr>
+            <td>지출·카테고리·꾸미기·출석·포인트 등 앱 기록</td>
+            <td>서비스 제공, 기기 간·멤버 간 동기화</td>
+            <td>사용자 입력</td>
+          </tr>
+          <tr>
+            <td>기기 로컬 저장 데이터</td>
+            <td>오프라인 사용</td>
+            <td>Drift(SQLite)</td>
+          </tr>
+          <tr>
+            <td>(선택) 카드 문자·영수증 사진 내용</td>
+            <td>지출 자동 채움</td>
+            <td>붙여넣기·촬영 시. 외부 AI 사용 시 별도 동의</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>광고 SDK·유료 결제·위치·연락처는 수집하지 않습니다.</p>
+
+      <h2>2. 보관·이전</h2>
+      <ul>
+        <li>
+          동기화: Google Firebase Auth, Cloud Firestore
+          (<code>asia-northeast3</code>, 서울 리전)
+        </li>
+        <li>소셜 로그인 제공자(Google/Apple)의 처리는 각 사 정책에 따릅니다.</li>
+        <li>
+          외부 AI(예: Gemini)로 영수증·붙여넣기를 보낼 경우, 해당 처리방침·국외
+          이전 고지를 동의 화면과 본 방침에 반영한 뒤에만 켭니다.
+        </li>
+      </ul>
+
+      <h2>3. 보유 기간</h2>
+      <ul>
+        <li>계정 유지 동안 서비스 제공에 필요한 범위에서 보관합니다.</li>
+        <li>
+          계정 삭제 시 이 기기 데이터와, 가능한 범위의 클라우드 데이터(소유
+          마을·멤버십·Auth 계정)를 삭제합니다. 다른 사람 마을에 남긴 기록은
+          “이전 멤버”로 남을 수 있습니다.
+        </li>
+        <li>관계 법령상 보관이 필요한 경우 해당 기간 보관합니다.</li>
+      </ul>
+
+      <h2>4. 이용자 권리</h2>
+      <ul>
+        <li>앱 <strong>설정 → 계정 삭제</strong>에서 삭제를 요청할 수 있습니다.</li>
+        <li>
+          웹 안내:
+          <a href="./account-deletion.html">계정 삭제 페이지</a>
+        </li>
+      </ul>
+
+      <h2>5. 아동</h2>
+      <p>
+        만 14세 미만은 가입·이용할 수 없습니다. 로그인 전 연령 확인을 받습니다.
+      </p>
+
+      <h2>6. 문의</h2>
+      <p>
+        개인정보처리책임자: <strong>(성명 기입)</strong><br />
+        이메일: <strong>(이메일 기입)</strong>
+      </p>
+    </main>
+    <footer>
+      © Spendville ·
+      <a href="./">법적 안내 홈</a>
+    </footer>
+  </body>
+</html>
